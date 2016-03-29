@@ -1,0 +1,2 @@
+#!/bin/bash
+cat /var/log/nginx/access.log* | cut -d " " -f 1 | ruby sta.rb
